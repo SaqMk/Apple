@@ -1,0 +1,122 @@
+@font-face {
+  font-family: content;
+  src: url(../../Assets/fonts/SF-Pro-Display-Light.otf);
+}
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  height: 53vw;
+  .container {
+    width: 43vw;
+    margin-top: 2vw;
+    .wrapper {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      .hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 45vw;
+        height: 82.5%;
+        margin-top: 6.6vw;
+        color: transparent;
+        // border: 1px solid red;
+        border-radius: 3vw;
+        transition: 0.7s;
+      }
+      // .hoverClick {
+      //   background-color: rgb(177, 177, 177);
+      //   opacity: 0.4;
+      //   color: black;
+      //   font-size: 6vw;
+      //   transition: 0.7s;
+      // }
+      .title {
+        font-weight: 500;
+        font-size: 4vw;
+        line-height: 5vw;
+        letter-spacing: -0.02em;
+        color: #eeeeee;
+      }
+      .titleContent {
+        font-weight: 500;
+        font-size: 2vw;
+        line-height: 2.5vw;
+        letter-spacing: -0.02em;
+        color: #eeeeee;
+      }
+      .availableContent {
+        font-weight: 400;
+        font-size: 1.3vw;
+        line-height: 2vw;
+        letter-spacing: -0.02em;
+        color: #86868b;
+      }
+      img {
+        width: 45vw;
+      }
+      .item {
+        width: 18vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 2vw;
+        p {
+          cursor: pointer;
+          font-weight: 500;
+          line-height: 1.5vw;
+          letter-spacing: -0.02em;
+          color: #2997ff;
+          font-size: 2vw;
+        }
+      }
+    }
+  }
+  .elseTitle {
+    font-size: 2vw;
+    margin-top: 8vw;
+    margin-left: 3vw;
+    color: white;
+  }
+  .elseContent {
+    // font-family:Arial, Helvetica, sans-serif;
+    font-family: content;
+    margin-left: 3vw;
+    // text-align: center;
+    margin-top: 12vw;
+  }
+}
+.wrapperOrder {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  // opacity: 0.5;
+  .input {
+    padding-left: 1vw;
+    height: 4vw;
+    border-radius: 2vw;
+    border: none;
+    &::placeholder {
+      font-size: 1vw !important;
+    }
+  }
+  .buyButton {
+    height: 4vw;
+    border-radius: 2vw;
+    background-color: #2997ff;
+    color: white;
+    border: none;
+    font-size: 1.5vw;
+  }
+  button {
+    cursor: pointer;
+  }
+}
