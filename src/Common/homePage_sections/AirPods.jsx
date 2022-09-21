@@ -13,11 +13,17 @@ export default function AirPods() {
         <p className={styles.titleContent}>Rebuilt from the sound up.</p>
         <p className={styles.availableContent}>Available starting 9.23</p>
         <img
+          alt=""
           onDragStart={handleClick}
           className={styles.airPods}
           src={airPodsPro}
         ></img>
-        <img onDragStart={handleClick} className={styles.pods} src={pods}></img>
+        <img
+          alt=""
+          onDragStart={handleClick}
+          className={styles.pods}
+          src={pods}
+        ></img>
       </div>
     </div>
   );

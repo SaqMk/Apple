@@ -157,7 +157,6 @@ export default function Background1NewPhone() {
                     height: "3vw",
                     fontSize: "1.5vw",
                     transition: "0.1s",
-                    fontSize: "0",
                   }
                 : {
                     display: "flex",
